@@ -1,0 +1,26 @@
+
+
+h3
+{
+    font-size: 25px !important;
+}
+
+
+.btn-danger:hover
+{
+    background-color: beige;
+    color: gray;
+}
+
+canvas
+{
+    animation-name: create;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes create 
+{
+    from{box-shadow: 7px 7px 52px rgb(77, 228, 119);}
+    to{box-shadow: 7px 7px 52px rgb(219, 112, 238);}
+}
